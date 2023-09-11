@@ -19,9 +19,9 @@
 	--color-text-color: #7289da;
 }
 /* utility  */
-.debug{
+/* .debug{
     border: 1px solid black;
-}
+} */
 
 .container{
     max-width: 1200px;
@@ -85,11 +85,12 @@ nav > div{
     background-size: cover;
     background-repeat: no-repeat;
     min-height: 500px;
+    background-position-x: 30%;
 }
 .hero-content{
     max-width: 800px;
 }
-a{
+ul li > a{
     display: block;
     margin: 0 12px;
     color: var(--color-secondary);
@@ -104,6 +105,12 @@ a{
     column-gap: 20px;
     margin: auto;
     margin-top: 10px;
+}
+#dw-mac > a{
+    color: var(--color-primary);
+}
+#open-discord > a{
+    color: var(--color-secondary);
 }
 #hero > div > div > #dw-mac{
     color: var(--color-primary);
@@ -151,6 +158,53 @@ h2{
     flex-direction: row-reverse;
     align-items: center;
 }
+
+.text-four{
+    text-align: center;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.re-size-2{
+    width: 85%;
+}
+.flex-section-4{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h3{
+    background-image: url(../img/stars.svg);
+    background-repeat: no-repeat;
+    text-align: center;
+    background-position: center top;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    font-size: 28px;
+}
+.download{
+    background-color: var(--color-text-color);
+    border-radius: 20px;
+    padding: 10px 15px;
+    color: var(--color-secondary);
+    display: inline-block;
+    font-size: 15px;
+}
+.pre-footer{
+    text-align: center;
+    padding-bottom: 70px;
+}
+/* .wave{
+    background-image: url(../img/wave.svg); 
+    background-color: #ffffff; 
+    height: 120px; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: contain;
+}  */
+    
+
 .even{
     background-color: var(--color-bg-section);
 }
@@ -214,4 +268,5 @@ ul li{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 0 20px;
 }
