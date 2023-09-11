@@ -123,8 +123,34 @@ a{
 section{
     padding-top: 30px;
     }
-
-
+.flex-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.flex-text{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+h2{
+    font-size: 2em;
+    padding: 30px 30px 10px 0;
+}
+.box{
+    max-width: 300px;
+    padding-left: 30px;
+    padding-bottom: 30px;
+}
+.re-size{
+    width: 45%;
+}
+.flex-section-2{
+    display: flex;
+    justify-content: center;
+    flex-direction: row-reverse;
+    align-items: center;
+}
 .even{
     background-color: var(--color-bg-section);
 }
