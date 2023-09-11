@@ -9,3 +9,21 @@
     list-style: none;
     text-decoration: none;
 }
+
+/* color  */
+:root {
+	--color-secondary: #ffffff;
+	--color-primary: #23272a;
+	--color-bg-section: #f6f6f6;
+	--color-bg-header: #2a5ee8;
+	--color-text-color: #7289da;
+}
+/* utility  */
+.debug{
+    border: 1px solid black;
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
