@@ -1,4 +1,4 @@
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
@@ -12,93 +12,114 @@
 
 /* color  */
 :root {
-	--color-secondary: #ffffff;
-	--color-primary: #23272a;
-	--color-bg-section: #f6f6f6;
-	--color-bg-header: #2a5ee8;
-	--color-text-color: #7289da;
+    --color-secondary: #ffffff;
+    --color-primary: #23272a;
+    --color-bg-section: #f6f6f6;
+    --color-bg-header: #2a5ee8;
+    --color-text-color: #7289da;
+    --color-primary-light: #49555b;
 }
+
 /* utility  */
 /* .debug{
     border: 1px solid black;
 } */
 
-.container{
+.container {
     max-width: 1200px;
     margin: 0 auto;
 }
 
-.padding-left-right{
+.padding-left-right {
     padding: 0 5px;
 }
 
-.button{
+.button {
     background-color: var(--color-secondary);
     border-radius: 20px;
     padding: 5px 10px;
 }
 
-.text-lightblue{
+.text-lightblue {
     color: var(--color-text-color);
 }
 
-/* header  */
-header{
+/* --------------------------- header ------------------------ */
+header {
     background-color: var(--color-bg-header);
 }
 
-.flex-nav{
+.flex-nav {
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
-.flex-header{
+
+.flex-header {
     display: flex;
     flex-wrap: wrap;
 }
-.flex-ul{
+
+.flex-ul {
     display: flex;
     align-items: center;
     align-content: center;
     flex-flow: row wrap;
     justify-content: space-between;
 }
-#hero > div > div:nth-child(2){
+
+#hero>div>div:nth-child(2) {
     margin: auto;
     padding: 30px 30px 0 30px;
     color: var(--color-secondary);
     line-height: 25px;
     text-align: center;
 }
-h1{
+
+h1 {
     margin: auto;
     padding: 100px 0 10px 0;
-    font-size:50px;
+    font-size: 50px;
     color: var(--color-secondary);
 }
-nav > div{
+
+nav>div {
     padding: 15px;
     color: var(--color-secondary);
 }
-#hero{
+
+#hero {
     background-image: url(../img/jumbo.png);
     background-size: cover;
     background-repeat: no-repeat;
     min-height: 500px;
     background-position-x: 30%;
 }
-.hero-content{
+
+.hero-content {
     max-width: 800px;
 }
-ul li > a{
+
+ul li>a {
     display: block;
     margin: 0 12px;
     color: var(--color-secondary);
 }
-.button{
+
+ul li>a:hover {
+    text-decoration: underline;
+}
+
+.button {
     color: var(--color-primary);
 }
-.flex-button{
+
+.button:hover {
+    color: var(--color-text-color);
+    box-shadow: 5px 5px 20px var(--color-primary);
+}
+
+.flex-button {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -106,75 +127,101 @@ ul li > a{
     margin: auto;
     margin-top: 10px;
 }
-#dw-mac > a{
+
+#dw-mac>a {
     color: var(--color-primary);
 }
-#open-discord > a{
+
+#dw-mac:hover {
+    box-shadow: 5px 5px 20px var(--color-primary);
+}
+
+#dw-mac>a:hover {
+    color: var(--color-text-color);
+}
+
+#open-discord>a {
     color: var(--color-secondary);
 }
-#hero > div > div > #dw-mac{
+
+#open-discord:hover {
+    box-shadow: 5px 5px 20px var(--color-primary);
+    background-color: var(--color-primary-light);
+}
+
+#hero>div>div>#dw-mac {
     color: var(--color-primary);
     background-color: var(--color-secondary);
     border-radius: 20px;
     padding: 5px 10px;
-    
 }
-#hero > div > div > #open-discord{
+
+#hero>div>div>#open-discord {
     border-radius: 20px;
     padding: 5px 10px;
     color: var(--color-secondary);
     background-color: var(--color-primary);
-    
 }
-/* main */
-section{
+
+/* ------------------------ main ----------------------- */
+section {
     padding: 60px 0;
-    }
-.flex-section{
+}
+
+.flex-section {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-wrap:wrap;
 }
-.flex-text{
+
+.flex-text {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
 }
-h2{
+
+h2 {
     font-size: 2em;
     padding: 30px 30px 10px 0;
 }
-.box{
+
+.box {
     max-width: 300px;
     padding-left: 30px;
     padding-bottom: 30px;
 }
-.re-size{
+
+.re-size {
     width: 45%;
+    min-width: 300px;
 }
-.flex-section-2{
+
+.flex-section-2 {
     display: flex;
     justify-content: center;
     flex-direction: row-reverse;
     align-items: center;
+    flex-wrap:wrap;
 }
 
-.text-four{
+.text-four {
     text-align: center;
     max-width: 900px;
     margin: 0 auto;
 }
 
-.re-size-2{
+.re-size-2 {
     width: 85%;
 }
-.flex-section-4{
+
+.flex-section-4 {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-h3{
+h3 {
     background-image: url(../img/stars.svg);
     background-repeat: no-repeat;
     text-align: center;
@@ -183,7 +230,8 @@ h3{
     padding-top: 30px;
     font-size: 28px;
 }
-.download{
+
+.download {
     background-color: var(--color-text-color);
     border-radius: 20px;
     padding: 10px 15px;
@@ -191,92 +239,104 @@ h3{
     display: inline-block;
     font-size: 15px;
 }
-.pre-footer{
+
+.pre-footer {
     text-align: center;
     padding-bottom: 70px;
 }
-.wave{
-    min-width: 1200px;
-    background-image: url(../img/wave.svg); 
-    filter: opacity(0.035) drop-shadow(0 0 var(--color-bg-section));
-    height: 120px; 
-    background-position: center; 
-    background-repeat: no-repeat; 
-    background-size: contain;
-} 
 
-.wave-2{
+.wave {
+    min-width: 1200px;
+    background-image: url(../img/wave.svg);
     filter: opacity(0.035) drop-shadow(0 0 var(--color-bg-section));
-    height: 120px; 
-    background-position: center; 
-    background-repeat: no-repeat; 
+    height: 120px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.wave-2 {
+    filter: opacity(0.035) drop-shadow(0 0 var(--color-bg-section));
+    height: 120px;
+    background-position: center;
+    background-repeat: no-repeat;
     background-size: contain;
     min-width: 1200px;
     background-image: url(../img/wave.svg);
-    transform:rotate(180deg);
+    transform: rotate(180deg);
 }
-    
+.pre-footer > .download:hover{
+    box-shadow: 5px 5px 20px var(--color-primary);
+}
 
-.even{
+.even {
     background-color: var(--color-bg-section);
 }
-/* footer  */
-footer{
+
+/* -------------------------- footer -----------------------  */
+footer {
     background-color: var(--color-primary);
     color: var(--color-secondary);
 }
 
-.flex-footer{
+.flex-footer {
     display: flex;
     column-gap: 30px;
     justify-content: space-around;
 }
 
-.footer-top{
+.footer-top {
     padding: 30px 0 20px 0;
     border-bottom: 1px solid var(--color-text-color);
     margin-bottom: 20px;
 }
-.flex-ita{
+
+.flex-ita {
     display: flex;
 }
-#ita{
+
+#ita {
     width: 30px;
 }
-.margin-10p{
+
+.margin-10p {
     margin: 10px 5px 10px 5px;
 }
-.margin-arrow{
+
+.margin-arrow {
     margin-top: 13px;
 }
 
-h4{
+h4 {
     font-size: 30px;
     color: var(--color-text-color);
 }
 
-ul li{
+ul li {
     padding: 7px 0 7px 0;
 }
 
-.margin-20p{
+.margin-20p {
     margin: 20px 10px 10px 10px;
 }
 
-#logo{
+#logo {
     padding: 10px 0 0px 0;
 }
 
-.button-2{
+.button-2 {
     color: var(--color-secondary);
     background-color: var(--color-text-color);
     border-radius: 20px;
     padding: 5px 10px;
     display: block;
-    
+}
+.container > .button-2:hover{
+    box-shadow: 5px 5px 20px var(--color-primary);
+
 }
 
-.flex-footer-bottom{
+.flex-footer-bottom {
     display: flex;
     justify-content: space-between;
     align-items: center;
