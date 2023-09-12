@@ -302,6 +302,9 @@ footer {
 .margin-10p {
     margin: 10px 5px 10px 5px;
 }
+div > a > .fa-brands{
+    color: var(--color-secondary);
+}
 
 .margin-arrow {
     margin-top: 13px;
@@ -341,4 +344,10 @@ ul li {
     justify-content: space-between;
     align-items: center;
     padding: 0 20px;
+}
+
+#language{
+    border-radius: 4px;
+    background-color: var(--color-text-color);
+    border: none;
 }
