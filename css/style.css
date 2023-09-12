@@ -61,6 +61,14 @@
     row-gap: 20px;
 }
 
+.border-radius-10p{
+    border-radius: 10px;
+}
+
+.display-inline-block{
+    display: inline-block;
+}
+
 /* --------------------------- header ------------------------ */
 header {
     background-color: var(--color-bg-header);
@@ -338,7 +346,7 @@ h5{
     font-size: 30px;
     text-align: center;
     width: 100%;
-    padding-bottom: 30px;
+    padding-bottom: 20px;
 }
 .flex-section-download{
     display: flex;
@@ -377,7 +385,8 @@ h5{
 }
 .layout-2{
     text-align: center;
-    padding-top: 150px;
+    /* padding-top: 150px; */
+    padding-bottom: 40px;
 }
 .button-download{
     background-color: var(--color-primary);
@@ -387,6 +396,14 @@ h5{
 }
 .last-box-download{
     max-width: 100%;
+    background-color: var(--color-bg-section);
+    text-align: left;
+    padding: 30px;
+}
+
+.last-hfive{
+    text-align: left;
+    padding-bottom: 10px;
 }
 /* -------------------------- footer -----------------------  */
 footer {
