@@ -69,6 +69,10 @@
     display: inline-block;
 }
 
+.max-height{
+    max-height: 400px;
+}
+
 /* --------------------------- header ------------------------ */
 header {
     background-color: var(--color-bg-header);
@@ -369,9 +373,7 @@ h5{
     object-position: 50% 200px;
     width: 100%;
 } 
-.padding-top{
-    padding-top: 100px;
-}
+
 
 .right-column{
     margin-top: 200px;
@@ -380,12 +382,9 @@ h5{
 .left-column{
     width: 50%;
 }
-.layout-1{
-   
-}
+
 .layout-2{
     text-align: center;
-    /* padding-top: 150px; */
     padding-bottom: 40px;
 }
 .button-download{
@@ -399,11 +398,30 @@ h5{
     background-color: var(--color-bg-section);
     text-align: left;
     padding: 30px;
+    margin: 10px;
 }
 
 .last-hfive{
     text-align: left;
     padding-bottom: 10px;
+}
+
+.bg-one{
+    background-image: url(../img/smartphone2.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 400px;
+    height: 330px;
+}
+.bg-two{
+    background-image: url(../img/smartphone1.svg);
+}
+.section-download{
+    padding: 30px 0 0 0;
+}
+.button-download:hover{
+    color: var(--color-text-color);
+    box-shadow: 5px 5px 20px var(--color-primary);
 }
 /* -------------------------- footer -----------------------  */
 footer {
