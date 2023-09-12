@@ -21,9 +21,9 @@
 }
 
 /* utility  */
-/* .debug{
+.debug{
     border: 1px solid black;
-} */
+}
 
 .container {
     max-width: 1200px;
@@ -128,7 +128,7 @@ ul li>a:hover {
     margin-top: 10px;
 }
 
-#dw-mac>a {
+#dw-mac{
     color: var(--color-primary);
 }
 
@@ -136,17 +136,12 @@ ul li>a:hover {
     box-shadow: 5px 5px 20px var(--color-primary);
 }
 
-#dw-mac>a:hover {
-    color: var(--color-text-color);
-}
-
-#open-discord>a {
+#open-discord{
     color: var(--color-secondary);
 }
 
 #open-discord:hover {
     box-shadow: 5px 5px 20px var(--color-primary);
-    background-color: var(--color-primary-light);
 }
 
 #hero>div>div>#dw-mac {
@@ -161,6 +156,11 @@ ul li>a:hover {
     padding: 5px 10px;
     color: var(--color-secondary);
     background-color: var(--color-primary);
+}
+/* ------------------------ download ----------------------- */
+#download > header {
+    background-color: var(--color-primary);
+
 }
 
 /* ------------------------ main ----------------------- */
@@ -267,6 +267,7 @@ h3 {
 }
 .pre-footer > .download:hover{
     box-shadow: 5px 5px 20px var(--color-primary);
+    color: black;
 }
 
 .even {
@@ -325,6 +326,7 @@ ul li {
 
 #logo {
     padding: 10px 0 0px 0;
+    margin-bottom: 30px;
 }
 
 .button-2 {
@@ -333,11 +335,14 @@ ul li {
     border-radius: 20px;
     padding: 5px 10px;
     display: block;
+    margin-bottom: 30px;
 }
-.container > .button-2:hover{
-    box-shadow: 5px 5px 20px var(--color-primary);
+.button-2:hover{
+    background-color: #89a0f4;
+    box-shadow: 5px 5px 20px black;
+    color: black;
+}
 
-}
 
 .flex-footer-bottom {
     display: flex;
