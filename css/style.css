@@ -90,6 +90,9 @@
 .flex{
     display: flex;
 }
+.row-reverse{
+    flex-direction: row-reverse;
+}
 /* --------------------------- header ------------------------ */
 header {
     background-color: var(--color-bg-header);
@@ -492,7 +495,39 @@ h5{
 /* ----------------------------main safety ----------------------- */
 #safety h3{
     background-image: none;
+    font-size: 30px;
+    text-align: left;
 }
+.bg-section{
+    background-color: var(--color-bg-section);
+}
+
+.section-safety{
+    padding: 30px 60px;
+}
+.box-safety{
+    padding: 0 30px;
+    font-size: 20px;
+}
+.a-safety-section{
+    padding-top: 30px;
+}
+.a-safety-section a{
+    color: black;
+}
+#safety .box-safety h3{
+    font-size: 50px;
+}
+.arrow-safety{
+    display: inline-block;
+    background-color: var(--color-text-color);
+    width: 29px;
+    height: 29px;
+    border-radius: 50%;
+    text-align: center;
+    color: var(--color-secondary);
+}
+
 /* -------------------------- footer -----------------------  */
 footer {
     background-color: var(--color-primary);
