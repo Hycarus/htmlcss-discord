@@ -128,7 +128,7 @@ ul li > a{
 }
 /* main */
 section{
-    padding-top: 30px;
+    padding: 60px 0;
     }
 .flex-section{
     display: flex;
@@ -195,14 +195,26 @@ h3{
     text-align: center;
     padding-bottom: 70px;
 }
-/* .wave{
+.wave{
+    min-width: 1200px;
     background-image: url(../img/wave.svg); 
-    background-color: #ffffff; 
+    filter: opacity(0.035) drop-shadow(0 0 var(--color-bg-section));
     height: 120px; 
     background-position: center; 
     background-repeat: no-repeat; 
     background-size: contain;
-}  */
+} 
+
+.wave-2{
+    filter: opacity(0.035) drop-shadow(0 0 var(--color-bg-section));
+    height: 120px; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: contain;
+    min-width: 1200px;
+    background-image: url(../img/wave.svg);
+    transform:rotate(180deg);
+}
     
 
 .even{
