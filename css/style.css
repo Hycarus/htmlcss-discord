@@ -43,6 +43,16 @@
 .text-lightblue {
     color: var(--color-text-color);
 }
+.flex-wrap{
+    flex-wrap: wrap;
+}
+.text-button-white{
+    color: var(--color-secondary);
+}
+
+.text-button-black{
+    color: var(--color-primary);
+}
 
 /* --------------------------- header ------------------------ */
 header {
@@ -149,7 +159,7 @@ ul li>a:hover {
     color: var(--color-secondary);
     background-color: var(--color-primary);
 }
-/* ------------------------ download ----------------------- */
+/* ------------------------ download header ----------------------- */
 #download > header {
     background-color: var(--color-primary);
 
@@ -310,6 +320,57 @@ h3 {
     background-color: var(--color-bg-section);
 }
 
+/* ----------------------- main download ---------------------- */
+.flex-container{
+    display: flex;
+    justify-content: center;
+    background-color: var(--color-secondary);
+    padding: 70px 30px;
+}
+h5{
+    font-size: 30px;
+    text-align: center;
+    width: 100%;
+    padding-bottom: 30px;
+}
+.flex-section{
+    display: flex;
+    max-height: 700px;
+    overflow: hidden;
+    margin: 10px;
+    background-color: var(--color-bg-section);
+}
+.flex-box{
+    display: flex;
+    align-items: center;
+}
+
+.img-download{
+    object-fit: none;
+    object-position: 50% 200px;
+    width: 100%;
+} 
+.padding-top{
+    padding-top: 100px;
+}
+
+.right-column{
+    margin-top: 200px;
+}
+.layout-1{
+    width: 80%;
+}
+.layout-2{
+    
+    text-align: center;
+}
+.button-download{
+    background-color: var(--color-primary);
+    border-radius: 20px;
+    padding: 10px 15px;
+    color: var(--color-secondary);
+    width: 100%;
+}
 /* -------------------------- footer -----------------------  */
 footer {
     background-color: var(--color-primary);
