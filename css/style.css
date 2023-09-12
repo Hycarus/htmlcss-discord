@@ -128,16 +128,8 @@ ul li>a:hover {
     margin-top: 10px;
 }
 
-#dw-mac{
-    color: var(--color-primary);
-}
-
 #dw-mac:hover {
     box-shadow: 5px 5px 20px var(--color-primary);
-}
-
-#open-discord{
-    color: var(--color-secondary);
 }
 
 #open-discord:hover {
@@ -161,6 +153,50 @@ ul li>a:hover {
 #download > header {
     background-color: var(--color-primary);
 
+}
+#download > header {
+    background-color: var(--color-primary);
+}
+#download #hero{
+    background-color: var(--color-primary);
+    background-image: none;
+    min-height: 500px;
+    padding: 50px;
+}
+#download h1{
+    text-transform: uppercase;
+    font-size: 40px;
+    line-height: 40px;
+    padding-top: 20px;
+}
+
+.dw-mac{
+    border-radius: 20px;
+    padding: 10px 20px;
+    color: var(--color-secondary);
+    background-color: var(--color-text-color);
+}
+
+#download #dw-mac:hover {
+    box-shadow: 5px 5px 20px var(--color-primary);
+}
+
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    color: var(--color-secondary);
+}
+
+#download .box{
+    max-width: 400px;
+    padding: 20px 0;
+}
+
+.box > span{
+    font-size: 10px;
+    padding-left: 20px;
 }
 
 /* ------------------------ main ----------------------- */
