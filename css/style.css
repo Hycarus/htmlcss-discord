@@ -21,9 +21,9 @@
 }
 
 /* utility  */
-.debug{
+/* .debug{
     border: 1px solid black;
-}
+} */
 
 .container {
     max-width: 1200px;
@@ -84,8 +84,14 @@
 .img-size{
     width: 100%;
 }
+.min-width{
+    min-width: 300px;
+}
 .box-size-50{
     width: 50%;
+}
+.box-size-25{
+    width: 25%;
 }
 .flex{
     display: flex;
@@ -93,6 +99,7 @@
 .row-reverse{
     flex-direction: row-reverse;
 }
+
 /* --------------------------- header ------------------------ */
 header {
     background-color: var(--color-bg-header);
@@ -252,7 +259,7 @@ ul li>a:hover {
     background-image: none;
 }
 #safety header{
-    min-height: 750px;
+    min-height: 810px;
 }
 .flex-header-safety{
     display: flex;
@@ -270,9 +277,13 @@ ul li>a:hover {
     margin: 0 50px;
     padding: 20px 20px;
     font-size: 20px;
+    flex-wrap: nowrap;
 }
 .ul-safety li{
     color: var(--color-secondary);
+}
+#safety li h3{
+    text-align: center;
 }
 .border-right{
     border-right: 1px solid var(--color-bg-header);
@@ -527,7 +538,22 @@ h5{
     text-align: center;
     color: var(--color-secondary);
 }
+.container-upper-main{
+    max-width: 1000px;
+    margin: 30px auto;
+    background-color: var(--color-text-color);
+    text-align: center;
+    align-items: center;
+}
 
+.container-upper-main h2{
+    font-size: 3em;
+    padding: 30px 0 10px 0;
+}
+.box-upper-main{
+    max-width: 500px;
+    padding-bottom: 40px;
+}
 /* -------------------------- footer -----------------------  */
 footer {
     background-color: var(--color-primary);
