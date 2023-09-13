@@ -104,7 +104,12 @@
 header {
     background-color: var(--color-bg-header);
 }
-
+.nav-home{
+    z-index: 1000;
+    position: fixed;
+    background-color: var(--color-bg-header);
+    width: 100%;
+}
 .flex-nav {
     display: flex;
     justify-content: space-around;
@@ -208,7 +213,12 @@ ul li>a:hover {
 /* ------------------------ download header ----------------------- */
 #download > header {
     background-color: var(--color-primary);
-
+}
+.nav-download{
+    z-index: 1000;
+    position: fixed;
+    background-color: var(--color-primary);
+    width: 100%;
 }
 #download > header {
     background-color: var(--color-primary);
@@ -257,6 +267,12 @@ ul li>a:hover {
 /* -------------------------- safety header ------------------------ */
 #safety #hero{
     background-image: none;
+}
+.nav-safety{
+    z-index: 1000;
+    position: fixed;
+    background-color: var(--color-bg-header);
+    width: 100%;
 }
 #safety header{
     min-height: 810px;
